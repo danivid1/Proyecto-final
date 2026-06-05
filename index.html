@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Profesional - Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Portafolio Profesional</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Servicios</a></li>
+        <li><a href="sobre_mi.html">Sobre mí</a></li>
+        <li><a href="clientes.html">Clientes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Servicios Profesionales</h1>
+      <p style="text-align: center; max-width: 600px; margin: 0 auto 3rem auto;">
+        Soluciones especializadas orientadas al desarrollo tecnológico, optimización de sistemas y el diseño conceptual con un enfoque riguroso y científico.
+      </p>
+
+      <div class="grid-servicios">
+        <div class="tarjeta-servicio">
+          <h3>Consultoría Técnica y Diseño</h3>
+          <p>Modelado de soluciones estructurales y análisis de viabilidad para proyectos multidisciplinarios, integrando principios de automatización y optimización de recursos.</p>
+        </div>
+
+        <div class="tarjeta-servicio">
+          <h3>Gestión y Desarrollo de Software</h3>
+          <p>Estructuración de bases de datos locales, optimización de flujos de información y diseño de interfaces funcionales adaptadas a necesidades específicas de control e inventario.</p>
+        </div>
+
+        <div class="tarjeta-servicio">
+          <h3>Investigación Aplicada</h3>
+          <p>Desarrollo conceptual e investigación documental enfocada en la integración de nuevos materiales y tecnología para el beneficio y desarrollo de proyectos comunitarios.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contenedor-formulario">
+      <h2>Solicitar Información</h2>
+      <p style="margin-bottom: 1.5rem; font-size: 0.9rem;">Si deseas coordinar una consultoría o conocer más sobre los servicios disponibles, por favor completa el siguiente formulario.</p>
+      
+      <form action="#" method="POST">
+        <div class="grupo-formulario">
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="grupo-formulario">
+          <label for="correo">Correo Electrónico</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div class="grupo-formulario">
+          <label for="servicio">Servicio de Interés</label>
+          <select id="servicio" name="servicio" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="consultoria">Consultoría Técnica</option>
+            <option value="desarrollo">Desarrollo de Software</option>
+            <option value="investigacion">Investigación Aplicada</option>
+          </select>
+        </div>
+
+        <div class="grupo-formulario">
+          <label for="mensaje">Detalles del Proyecto</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Enviar Solicitud</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Portafolio Profesional. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
